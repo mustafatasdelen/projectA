@@ -31,9 +31,9 @@ jobs:
 
         - name: Push Project B
           run: |
-          cd ./projectB
-          git add .
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git commit -am "File Replicated from Project A"
-          git push
+            cd ./projectB
+            git add .
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git commit -am "File Replicated from Project A"
+            git push
